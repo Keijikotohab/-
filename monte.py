@@ -41,7 +41,7 @@ def In():#πの推定値の算出関数
 def σn():#πの推定値の標準偏差の算出関数
     sum2=math.sqrt(((((monte_method_1-In())**2)+((monte_method_2-In())**2)+((monte_method_3-In())**2)\
     +((monte_method_4-In())**2)+((monte_method_5-In())**2)+((monte_method_6-In())**2)\
-    +((monte_method _7-In())**2)+((monte_method_8-In())**2)+((monte_method_9-In())**2)\
+    +((monte_method_7-In())**2)+((monte_method_8-In())**2)+((monte_method_9-In())**2)\
     +((monte_method_10-In())**2))/9))
     return sum2
 
